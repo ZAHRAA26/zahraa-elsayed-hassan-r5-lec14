@@ -1,0 +1,48 @@
+.dark {
+    background-color: rgb(20, 28, 47);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    row-gap: 10px;
+}
+
+.light {
+    background-color: aliceblue;
+}
+
+.d-row {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-row .h3dark {
+    color: rgb(251, 255, 255)
+}
+
+.d-row .h3light {
+    color: black
+}
+
+.d-row-sun {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10%;
+}
+
+.d-row-sun .spandark {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+
+.d-row-sun .spanlight {
+    color: #768CBE;
+    letter-spacing: 1px;
+}
